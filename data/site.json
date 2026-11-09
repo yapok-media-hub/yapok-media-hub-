@@ -40,10 +40,10 @@
     }
   },
   "formulaires": {
-    "candidature": "",
-    "contribution": "",
-    "newsletter": "",
-    "contact": ""
+    "candidature": "https://formspree.io/f/xnppkkbl",
+    "contribution": "https://formspree.io/f/xdeerrlj",
+    "newsletter": "https://formspree.io/f/mqppvvdv",
+    "contact": "https://formspree.io/f/mljjyywq"
   },
   "mentions": {
     "directeurPublication": "[Nom du directeur ou de la directrice de publication]",
