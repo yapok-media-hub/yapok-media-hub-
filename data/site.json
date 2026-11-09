@@ -21,8 +21,8 @@
   },
   "radio": {
     "nom": "Radio Yapok Média",
-    "streamUrl": "",
-    "nowPlayingUrl": "",
+    "streamUrl": "https://radio.yapokmedia.org/listen/yapok/radio.mp3",
+    "nowPlayingUrl": "https://radio.yapokmedia.org/api/nowplaying/yapok",
     "message": "La webradio prépare ses premières émissions. En attendant, retrouvez nos podcasts.",
     "traductions": {
       "pt": {
