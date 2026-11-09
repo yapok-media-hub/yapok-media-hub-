@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Photos · Yapok Média</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="La photothèque de Yapok Média : le fleuve, le patrimoine et les événements de l&#x27;Est guyanais.">
+<meta property="og:title" content="Photos · Yapok Média">
+<meta property="og:description" content="La photothèque de Yapok Média : le fleuve, le patrimoine et les événements de l&#x27;Est guyanais.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/logo-moyapok-512.jpg">
+<meta name="theme-color" content="#E8F8F0">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/archivo-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/i18n.js"></script>
+</head>
+<body data-page="photos" data-title-key="nav.photos">
+<div id="site-header"></div>
+<main id="main">
+<section class="page-head"><div class="wrap">
+<p class="eyebrow" data-i18n="ph.eyebrow">Photothèque</p>
+<h1 class="display" data-i18n="nav.photos">Photos</h1>
+<p class="lead" data-i18n="ph.lead">Le fleuve, les villages, les savoir-faire et les événements, avec le nom de chaque photographe.</p>
+</div></section><section class="section"><div class="wrap">
+<div class="filter-rows"><div class="filters" id="photos-filters" role="group" aria-label="Filtrer par album" data-i18n-aria="ph.filter"></div>
+<div class="filters" id="photos-communes" role="group" aria-label="Filtrer par commune" data-i18n-aria="filter.commune"></div></div>
+<div class="gallery" id="photos-grid"></div>
+</div></section>
+<dialog class="lightbox" id="lightbox" aria-label="Photo agrandie" data-i18n-aria="ph.dialog">
+<figure><img id="lb-img" src="" alt="">
+<div class="bar"><figcaption id="lb-cap"></figcaption>
+<div style="display:flex;gap:.5rem;flex-wrap:wrap"><button type="button" id="lb-prev" data-i18n="ph.prev">Précédente</button><button type="button" id="lb-next" data-i18n="ph.next">Suivante</button><button type="button" id="lb-close" data-i18n="menu.close">Fermer</button></div></div>
+</figure>
+</dialog>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

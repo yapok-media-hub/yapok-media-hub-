@@ -1,0 +1,132 @@
+{
+  "videos": [
+    {
+      "titre": "Kozé Tan Lontan, en images",
+      "theme": "Mémoire",
+      "youtubeId": "",
+      "lien": "",
+      "description": "Les coulisses des enregistrements et les visages des invités.",
+      "visuel": "assets/img/visuel-1.svg",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Kozé Tan Lontan em imagens",
+          "theme": "Memória",
+          "description": "Os bastidores das gravações e os rostos dos convidados."
+        },
+        "en": {
+          "titre": "Kozé Tan Lontan on camera",
+          "theme": "Memory",
+          "description": "Behind the scenes of the recordings, and the faces of the guests."
+        },
+        "nl": {
+          "titre": "Kozé Tan Lontan in beeld",
+          "theme": "Herinnering",
+          "description": "Achter de schermen van de opnames en de gezichten van de gasten."
+        },
+        "es": {
+          "titre": "Kozé Tan Lontan en imágenes",
+          "theme": "Memoria",
+          "description": "Entre bastidores de las grabaciones y los rostros de los invitados."
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "titre": "Tampak, village-patrimoine",
+      "theme": "Patrimoine",
+      "youtubeId": "",
+      "lien": "",
+      "description": "Les habitations, la roche et les savoir-faire d'un village du bas Oyapock.",
+      "visuel": "assets/img/visuel-4.svg",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Tampak, aldeia-patrimônio",
+          "theme": "Patrimônio",
+          "description": "As casas, a rocha e os saberes de uma aldeia do baixo Oyapock."
+        },
+        "en": {
+          "titre": "Tampak, heritage village",
+          "theme": "Heritage",
+          "description": "The houses, the rock and the know-how of a village on the lower Oyapock."
+        },
+        "nl": {
+          "titre": "Tampak, erfgoeddorp",
+          "theme": "Erfgoed",
+          "description": "De huizen, de rots en het vakmanschap van een dorp aan de benedenloop van de Oyapock."
+        },
+        "es": {
+          "titre": "Tampak, pueblo patrimonio",
+          "theme": "Patrimonio",
+          "description": "Las casas, la roca y los saberes de un pueblo del bajo Oyapock."
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "titre": "Scène locale : session live",
+      "theme": "Musique",
+      "youtubeId": "",
+      "lien": "",
+      "description": "Un artiste de l'Est guyanais en concert acoustique.",
+      "visuel": "assets/img/visuel-2.svg",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Palco local: sessão ao vivo",
+          "theme": "Música",
+          "description": "Um artista do leste da Guiana Francesa em show acústico."
+        },
+        "en": {
+          "titre": "Local stage: live session",
+          "theme": "Music",
+          "description": "An artist from eastern French Guiana in an acoustic set."
+        },
+        "nl": {
+          "titre": "Lokaal podium: livesessie",
+          "theme": "Muziek",
+          "description": "Een kunstenaar uit Oost-Frans-Guyana in een akoestisch concert."
+        },
+        "es": {
+          "titre": "Escena local: sesión en directo",
+          "theme": "Música",
+          "description": "Un artista del este de la Guayana Francesa en concierto acústico."
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "titre": "Le fleuve au quotidien",
+      "theme": "Reportage",
+      "youtubeId": "",
+      "lien": "",
+      "description": "Pirogues, débarcadères et traversées : une journée sur l'Oyapock.",
+      "visuel": "assets/img/visuel-6.svg",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "O rio no dia a dia",
+          "theme": "Reportagem",
+          "description": "Pirogas, embarcadouros e travessias: um dia no Oyapock."
+        },
+        "en": {
+          "titre": "Everyday life on the river",
+          "theme": "Report",
+          "description": "Pirogues, landings and crossings: a day on the Oyapock."
+        },
+        "nl": {
+          "titre": "De rivier van alledag",
+          "theme": "Reportage",
+          "description": "Korjalen, aanlegplaatsen en overtochten: een dag op de Oyapock."
+        },
+        "es": {
+          "titre": "El río en el día a día",
+          "theme": "Reportaje",
+          "description": "Piraguas, embarcaderos y travesías: un día en el Oyapock."
+        }
+      },
+      "commune": "Camopi"
+    }
+  ]
+}

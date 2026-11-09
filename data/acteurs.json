@@ -1,0 +1,208 @@
+{
+  "acteurs": [
+    {
+      "id": "moyapok",
+      "nom": "M'OYAPOK",
+      "type": "Association",
+      "niveau": "Éditeur",
+      "commune": "Saint-Georges de l'Oyapock",
+      "accroche": "Culture, média, événementiel dans l'Est guyanais.",
+      "presentation": "Association loi 1901 basée à Saint-Georges de l'Oyapock, M'OYAPOK porte des projets culturels, patrimoniaux et médiatiques au service des habitants de l'Est guyanais. Elle édite le hub Yapok Média et accompagne les acteurs qui le rejoignent.",
+      "visuel": "assets/img/visuel-3.svg",
+      "email": "asso.moyapok@gmail.com",
+      "telephone": "0694 92 90 24",
+      "site": "",
+      "exemple": false,
+      "traductions": {
+        "pt": {
+          "type": "Associação",
+          "accroche": "Cultura, mídia e eventos no leste da Guiana Francesa.",
+          "presentation": "Associação sem fins lucrativos sediada em Saint-Georges de l'Oyapock, a M'OYAPOK desenvolve projetos culturais, patrimoniais e de mídia a serviço dos moradores do leste da Guiana Francesa. Ela edita o hub Yapok Média e acompanha os membros que se juntam a ele."
+        },
+        "en": {
+          "type": "Association",
+          "accroche": "Culture, media and events in eastern French Guiana.",
+          "presentation": "A non-profit association based in Saint-Georges de l'Oyapock, M'OYAPOK runs cultural, heritage and media projects for the people of eastern French Guiana. It publishes the Yapok Média hub and supports the members who join it."
+        },
+        "nl": {
+          "type": "Vereniging",
+          "accroche": "Cultuur, media en evenementen in Oost-Frans-Guyana.",
+          "presentation": "M'OYAPOK is een vereniging zonder winstoogmerk in Saint-Georges de l'Oyapock die culturele, erfgoed- en mediaprojecten opzet voor de inwoners van Oost-Frans-Guyana. Ze geeft de hub Yapok Média uit en begeleidt de deelnemers die zich aansluiten."
+        },
+        "es": {
+          "type": "Asociación",
+          "accroche": "Cultura, medios y eventos en el este de la Guayana Francesa.",
+          "presentation": "Asociación sin ánimo de lucro con sede en Saint-Georges de l'Oyapock, M'OYAPOK impulsa proyectos culturales, patrimoniales y mediáticos al servicio de los habitantes del este de la Guayana Francesa. Edita el hub Yapok Média y acompaña a los miembros que se suman a él."
+        }
+      }
+    },
+    {
+      "id": "yapok-media",
+      "nom": "Yapok Média",
+      "type": "Média",
+      "niveau": "Éditeur",
+      "commune": "Saint-Georges de l'Oyapock",
+      "accroche": "Webradio, podcasts, magazine et vidéos.",
+      "presentation": "Branche média de M'OYAPOK, Yapok Média produit les podcasts Kozé Tan Lontan, le magazine Yapok Mag et prépare la webradio du hub.",
+      "visuel": "assets/img/visuel-1.svg",
+      "email": "yapokmedia@gmail.com",
+      "telephone": "",
+      "site": "",
+      "exemple": false,
+      "traductions": {
+        "pt": {
+          "type": "Mídia",
+          "accroche": "Rádio web, podcasts, revista e vídeos.",
+          "presentation": "Braço de mídia da M'OYAPOK, o Yapok Média produz os podcasts Kozé Tan Lontan, a revista Yapok Mag e prepara a rádio web do hub."
+        },
+        "en": {
+          "type": "Media",
+          "accroche": "Web radio, podcasts, magazine and videos.",
+          "presentation": "M'OYAPOK's media branch, Yapok Média produces the Kozé Tan Lontan podcasts and Yapok Mag, and is preparing the hub's web radio."
+        },
+        "nl": {
+          "type": "Media",
+          "accroche": "Webradio, podcasts, magazine en video's.",
+          "presentation": "Yapok Média, de mediatak van M'OYAPOK, maakt de podcasts Kozé Tan Lontan en het magazine Yapok Mag en bereidt de webradio van de hub voor."
+        },
+        "es": {
+          "type": "Medio",
+          "accroche": "Radio web, pódcasts, revista y vídeos.",
+          "presentation": "Rama de medios de M'OYAPOK, Yapok Média produce los pódcasts Kozé Tan Lontan y la revista Yapok Mag, y prepara la radio web del hub."
+        }
+      }
+    },
+    {
+      "id": "artiste-invite",
+      "nom": "Artiste invité",
+      "type": "Artiste",
+      "niveau": "Contributeur",
+      "commune": "Est guyanais",
+      "accroche": "Exemple de fiche pour un artiste contributeur.",
+      "presentation": "Cette fiche montre comment un artiste apparaîtra sur le hub : présentation, sons, vidéos et contact.",
+      "visuel": "assets/img/visuel-2.svg",
+      "email": "",
+      "telephone": "",
+      "site": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "nom": "Artista convidado",
+          "type": "Artista",
+          "commune": "Leste da Guiana Francesa",
+          "accroche": "Exemplo de perfil para um artista colaborador.",
+          "presentation": "Este perfil mostra como um artista aparecerá no hub: apresentação, sons, vídeos e contato."
+        },
+        "en": {
+          "nom": "Guest artist",
+          "type": "Artist",
+          "commune": "Eastern French Guiana",
+          "accroche": "Sample profile for a contributing artist.",
+          "presentation": "This profile shows how an artist will appear on the hub: introduction, sounds, videos and contact."
+        },
+        "nl": {
+          "nom": "Gastkunstenaar",
+          "type": "Kunstenaar",
+          "commune": "Oost-Frans-Guyana",
+          "accroche": "Voorbeeldprofiel voor een bijdragende kunstenaar.",
+          "presentation": "Dit profiel laat zien hoe een kunstenaar op de hub verschijnt: presentatie, geluid, video's en contact."
+        },
+        "es": {
+          "nom": "Artista invitado",
+          "type": "Artista",
+          "commune": "Este de la Guayana Francesa",
+          "accroche": "Ejemplo de perfil para un artista colaborador.",
+          "presentation": "Este perfil muestra cómo aparecerá un artista en el hub: presentación, sonidos, vídeos y contacto."
+        }
+      }
+    },
+    {
+      "id": "structure-partenaire",
+      "nom": "Structure partenaire",
+      "type": "Structure culturelle",
+      "niveau": "Partenaire",
+      "commune": "Est guyanais",
+      "accroche": "Exemple de fiche pour une structure partenaire.",
+      "presentation": "Une association ou une structure partenaire dispose de sa page : présentation, actualités, agenda et galerie.",
+      "visuel": "assets/img/visuel-4.svg",
+      "email": "",
+      "telephone": "",
+      "site": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "nom": "Organização parceira",
+          "type": "Organização cultural",
+          "commune": "Leste da Guiana Francesa",
+          "accroche": "Exemplo de perfil para uma organização parceira.",
+          "presentation": "Uma associação ou organização parceira tem sua página: apresentação, notícias, agenda e galeria."
+        },
+        "en": {
+          "nom": "Partner organisation",
+          "type": "Cultural organisation",
+          "commune": "Eastern French Guiana",
+          "accroche": "Sample profile for a partner organisation.",
+          "presentation": "A partner association or organisation has its own page: introduction, news, events and gallery."
+        },
+        "nl": {
+          "nom": "Partnerorganisatie",
+          "type": "Culturele organisatie",
+          "commune": "Oost-Frans-Guyana",
+          "accroche": "Voorbeeldprofiel voor een partnerorganisatie.",
+          "presentation": "Een partnervereniging of -organisatie heeft een eigen pagina: presentatie, nieuws, agenda en galerij."
+        },
+        "es": {
+          "nom": "Entidad socia",
+          "type": "Entidad cultural",
+          "commune": "Este de la Guayana Francesa",
+          "accroche": "Ejemplo de perfil para una entidad socia.",
+          "presentation": "Una asociación o entidad socia tiene su página: presentación, noticias, agenda y galería."
+        }
+      }
+    },
+    {
+      "id": "animateur-radio",
+      "nom": "Animateur radio",
+      "type": "Animation radio",
+      "niveau": "Antenne",
+      "commune": "Est guyanais",
+      "accroche": "Exemple de fiche pour un créneau de la webradio.",
+      "presentation": "Un animateur titulaire d'un créneau présente son émission, ses horaires et ses rediffusions.",
+      "visuel": "assets/img/visuel-5.svg",
+      "email": "",
+      "telephone": "",
+      "site": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "nom": "Locutor de rádio",
+          "type": "Apresentação de rádio",
+          "commune": "Leste da Guiana Francesa",
+          "accroche": "Exemplo de perfil para um horário na rádio web.",
+          "presentation": "Um locutor com horário fixo apresenta seu programa, seus horários e suas reprises."
+        },
+        "en": {
+          "nom": "Radio presenter",
+          "type": "Radio hosting",
+          "commune": "Eastern French Guiana",
+          "accroche": "Sample profile for a web radio slot.",
+          "presentation": "A presenter with a regular slot introduces their show, its times and reruns."
+        },
+        "nl": {
+          "nom": "Radiopresentator",
+          "type": "Radiopresentatie",
+          "commune": "Oost-Frans-Guyana",
+          "accroche": "Voorbeeldprofiel voor een tijdslot op de webradio.",
+          "presentation": "Een presentator met een vast tijdslot stelt zijn programma, tijden en herhalingen voor."
+        },
+        "es": {
+          "nom": "Locutor de radio",
+          "type": "Locución de radio",
+          "commune": "Este de la Guayana Francesa",
+          "accroche": "Ejemplo de perfil para un espacio en la radio web.",
+          "presentation": "Un locutor con un espacio fijo presenta su programa, sus horarios y sus reposiciones."
+        }
+      }
+    }
+  ]
+}

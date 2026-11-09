@@ -1,0 +1,268 @@
+{
+  "grille": [
+    {
+      "jour": "Lundi au vendredi",
+      "heure": "06:30",
+      "titre": "Bonjou Oyapock",
+      "animation": "L'équipe Yapok Média",
+      "description": "Réveil en musique, météo du fleuve, annonces des communes et agenda du jour.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Segunda a sexta",
+          "animation": "A equipe Yapok Média",
+          "description": "Despertar com música, clima do rio, avisos dos municípios e agenda do dia."
+        },
+        "en": {
+          "jour": "Monday to Friday",
+          "animation": "The Yapok Média team",
+          "description": "Wake up to music, river weather, local announcements and today's events."
+        },
+        "nl": {
+          "jour": "Maandag t/m vrijdag",
+          "animation": "Het team van Yapok Média",
+          "description": "Wakker worden met muziek, het weer op de rivier, gemeentelijke mededelingen en de agenda van de dag."
+        },
+        "es": {
+          "jour": "De lunes a viernes",
+          "animation": "El equipo de Yapok Média",
+          "description": "Despertar con música, el tiempo en el río, anuncios de los municipios y la agenda del día."
+        }
+      }
+    },
+    {
+      "jour": "Lundi au vendredi",
+      "heure": "12:00",
+      "titre": "Midi kréyòl",
+      "animation": "Programmation musicale",
+      "description": "Une heure de musiques de Guyane et du plateau des Guyanes.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Segunda a sexta",
+          "animation": "Programação musical",
+          "description": "Uma hora de músicas da Guiana Francesa e do Planalto das Guianas."
+        },
+        "en": {
+          "jour": "Monday to Friday",
+          "animation": "Music programme",
+          "description": "One hour of music from French Guiana and the Guiana Shield."
+        },
+        "nl": {
+          "jour": "Maandag t/m vrijdag",
+          "animation": "Muziekprogramma",
+          "description": "Een uur muziek uit Frans-Guyana en het Guianaschild."
+        },
+        "es": {
+          "jour": "De lunes a viernes",
+          "animation": "Programación musical",
+          "description": "Una hora de música de la Guayana Francesa y del escudo guayanés."
+        }
+      }
+    },
+    {
+      "jour": "Mercredi",
+      "heure": "18:00",
+      "titre": "Kozé Tan Lontan",
+      "animation": "Yapok Média",
+      "description": "Les anciens racontent Saint-Georges, Tampak, Ouanary et Trois-Palétuviers.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Quarta-feira",
+          "animation": "Yapok Média",
+          "description": "Os mais velhos contam Saint-Georges, Tampak, Ouanary e Trois-Palétuviers."
+        },
+        "en": {
+          "jour": "Wednesday",
+          "animation": "Yapok Média",
+          "description": "Elders tell the story of Saint-Georges, Tampak, Ouanary and Trois-Palétuviers."
+        },
+        "nl": {
+          "jour": "Woensdag",
+          "animation": "Yapok Média",
+          "description": "Ouderen vertellen over Saint-Georges, Tampak, Ouanary en Trois-Palétuviers."
+        },
+        "es": {
+          "jour": "Miércoles",
+          "animation": "Yapok Média",
+          "description": "Los mayores cuentan Saint-Georges, Tampak, Ouanary y Trois-Palétuviers."
+        }
+      }
+    },
+    {
+      "jour": "Jeudi",
+      "heure": "18:00",
+      "titre": "Le tour des communes",
+      "animation": "Correspondants de commune",
+      "exemple": true,
+      "description": "Chaque semaine, une commune à l'antenne : Régina, Saint-Georges, Ouanary, Camopi.",
+      "traductions": {
+        "pt": {
+          "jour": "Quinta-feira",
+          "titre": "A volta dos municípios",
+          "animation": "Correspondentes municipais",
+          "description": "Toda semana, um município no ar: Régina, Saint-Georges, Ouanary, Camopi."
+        },
+        "en": {
+          "jour": "Thursday",
+          "titre": "Around the towns",
+          "animation": "Town correspondents",
+          "description": "Each week, one town on air: Régina, Saint-Georges, Ouanary, Camopi."
+        },
+        "nl": {
+          "jour": "Donderdag",
+          "titre": "De ronde langs de gemeenten",
+          "animation": "Gemeentecorrespondenten",
+          "description": "Elke week een gemeente in de uitzending: Régina, Saint-Georges, Ouanary, Camopi."
+        },
+        "es": {
+          "jour": "Jueves",
+          "titre": "La vuelta a los municipios",
+          "animation": "Corresponsales municipales",
+          "description": "Cada semana, un municipio en antena: Régina, Saint-Georges, Ouanary, Camopi."
+        }
+      }
+    },
+    {
+      "jour": "Vendredi",
+      "heure": "19:00",
+      "titre": "Scène locale",
+      "animation": "Créneau Antenne",
+      "description": "Les artistes de l'Est guyanais en live et en interview.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Sexta-feira",
+          "animation": "Horário Antena",
+          "description": "Os artistas do leste da Guiana Francesa ao vivo e em entrevista.",
+          "titre": "Palco local"
+        },
+        "en": {
+          "jour": "Friday",
+          "animation": "Broadcaster slot",
+          "description": "Artists from eastern French Guiana, live and in interview.",
+          "titre": "Local stage"
+        },
+        "nl": {
+          "jour": "Vrijdag",
+          "animation": "Tijdslot programmamaker",
+          "description": "Kunstenaars uit Oost-Frans-Guyana, live en in interviews.",
+          "titre": "Lokaal podium"
+        },
+        "es": {
+          "jour": "Viernes",
+          "animation": "Espacio Antena",
+          "description": "Los artistas del este de la Guayana Francesa en directo y en entrevista.",
+          "titre": "Escena local"
+        }
+      }
+    },
+    {
+      "jour": "Samedi",
+      "heure": "10:00",
+      "titre": "La voix des jeunes",
+      "animation": "Ateliers radio",
+      "description": "Émission préparée par les jeunes accompagnés dans les ateliers de M'OYAPOK.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Sábado",
+          "animation": "Oficinas de rádio",
+          "description": "Programa preparado pelos jovens acompanhados nas oficinas da M'OYAPOK.",
+          "titre": "A voz dos jovens"
+        },
+        "en": {
+          "jour": "Saturday",
+          "animation": "Radio workshops",
+          "description": "A show made by young people in M'OYAPOK's workshops.",
+          "titre": "Youth voices"
+        },
+        "nl": {
+          "jour": "Zaterdag",
+          "animation": "Radioworkshops",
+          "description": "Programma gemaakt door jongeren in de workshops van M'OYAPOK.",
+          "titre": "De stem van de jongeren"
+        },
+        "es": {
+          "jour": "Sábado",
+          "animation": "Talleres de radio",
+          "description": "Programa preparado por los jóvenes de los talleres de M'OYAPOK.",
+          "titre": "La voz de los jóvenes"
+        }
+      }
+    },
+    {
+      "jour": "Dimanche",
+      "heure": "08:00",
+      "titre": "Chants de tradition",
+      "animation": "Programmation musicale",
+      "description": "Les répertoires traditionnels créoles, bushinengé et amérindiens.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Domingo",
+          "animation": "Programação musical",
+          "description": "Os repertórios tradicionais crioulos, bushinengué e indígenas.",
+          "titre": "Cantos de tradição"
+        },
+        "en": {
+          "jour": "Sunday",
+          "animation": "Music programme",
+          "description": "Traditional Creole, Bushinengue and Amerindian repertoires.",
+          "titre": "Traditional songs"
+        },
+        "nl": {
+          "jour": "Zondag",
+          "animation": "Muziekprogramma",
+          "description": "Traditionele creoolse, marron- en inheemse repertoires.",
+          "titre": "Traditionele liederen"
+        },
+        "es": {
+          "jour": "Domingo",
+          "animation": "Programación musical",
+          "description": "Los repertorios tradicionales criollos, bushinengué y amerindios.",
+          "titre": "Cantos de tradición"
+        }
+      }
+    },
+    {
+      "jour": "Tous les jours",
+      "heure": "Le reste du temps",
+      "titre": "Flux continu",
+      "animation": "Programmation automatique",
+      "description": "Musiques du territoire, rediffusions de podcasts et annonces culturelles.",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "jour": "Todos os dias",
+          "animation": "Programação automática",
+          "description": "Músicas da região, reprises de podcasts e anúncios culturais.",
+          "titre": "Programação contínua",
+          "heure": "O resto do tempo"
+        },
+        "en": {
+          "jour": "Every day",
+          "animation": "Automated playlist",
+          "description": "Local music, podcast reruns and cultural announcements.",
+          "titre": "Non-stop",
+          "heure": "All other times"
+        },
+        "nl": {
+          "jour": "Elke dag",
+          "animation": "Automatische programmering",
+          "description": "Muziek uit de regio, herhalingen van podcasts en culturele aankondigingen.",
+          "titre": "Doorlopend",
+          "heure": "De rest van de tijd"
+        },
+        "es": {
+          "jour": "Todos los días",
+          "animation": "Programación automática",
+          "description": "Música del territorio, reposiciones de pódcasts y anuncios culturales.",
+          "titre": "Emisión continua",
+          "heure": "El resto del tiempo"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "nom": "Yapok Média",
+  "slogan": "La voix culturelle de l'Est guyanais",
+  "presentation": "Yapok Média est la branche média de l'association M'OYAPOK. Le hub réunit la webradio, les podcasts, le magazine Yapok Mag, les vidéos, les photos et l'agenda culturel de l'Est guyanais, et ouvre un espace aux artistes, associations et structures du territoire.",
+  "association": {
+    "nom": "M'OYAPOK",
+    "forme": "Association loi 1901",
+    "siren": "899 101 661",
+    "adresse": "4 rue Maurice Sparce, 97313 Saint-Georges de l'Oyapock",
+    "email": "asso.moyapok@gmail.com",
+    "telephone": "0694 92 90 24"
+  },
+  "media": {
+    "email": "yapokmedia@gmail.com"
+  },
+  "reseaux": {
+    "youtube": "",
+    "tiktok": "",
+    "facebook": "",
+    "instagram": ""
+  },
+  "radio": {
+    "nom": "Radio Yapok Média",
+    "streamUrl": "",
+    "nowPlayingUrl": "",
+    "message": "La webradio prépare ses premières émissions. En attendant, retrouvez nos podcasts.",
+    "traductions": {
+      "pt": {
+        "message": "A rádio web está preparando seus primeiros programas. Enquanto isso, ouça nossos podcasts."
+      },
+      "en": {
+        "message": "The web radio is preparing its first shows. Meanwhile, enjoy our podcasts."
+      },
+      "nl": {
+        "message": "De webradio bereidt zijn eerste programma's voor. Luister in de tussentijd naar onze podcasts."
+      },
+      "es": {
+        "message": "La radio web prepara sus primeros programas. Mientras tanto, escucha nuestros pódcasts."
+      }
+    }
+  },
+  "formulaires": {
+    "candidature": "",
+    "contribution": "",
+    "newsletter": "",
+    "contact": ""
+  },
+  "mentions": {
+    "directeurPublication": "[Nom du directeur ou de la directrice de publication]",
+    "hebergeurNom": "Cloudflare, Inc.",
+    "hebergeurAdresse": "101 Townsend Street, San Francisco, CA 94107, États-Unis",
+    "hebergeurSite": "https://www.cloudflare.com"
+  },
+  "traductions": {
+    "pt": {
+      "slogan": "A voz cultural do leste da Guiana Francesa",
+      "presentation": "O Yapok Média é o braço de mídia da associação M'OYAPOK. O hub reúne a rádio web, os podcasts, a revista Yapok Mag, os vídeos, as fotos e a agenda cultural do leste da Guiana Francesa, e abre espaço para artistas, associações e organizações da região."
+    },
+    "en": {
+      "slogan": "The cultural voice of eastern French Guiana",
+      "presentation": "Yapok Média is the media branch of the M'OYAPOK association. The hub brings together the web radio, podcasts, Yapok Mag, videos, photos and the cultural calendar of eastern French Guiana, and makes room for the region's artists, associations and organisations."
+    },
+    "nl": {
+      "slogan": "De culturele stem van Oost-Frans-Guyana",
+      "presentation": "Yapok Média is de mediatak van de vereniging M'OYAPOK. De hub brengt de webradio, podcasts, het magazine Yapok Mag, video's, foto's en de culturele agenda van Oost-Frans-Guyana samen, en biedt ruimte aan kunstenaars, verenigingen en organisaties uit de regio."
+    },
+    "es": {
+      "slogan": "La voz cultural del este de la Guayana Francesa",
+      "presentation": "Yapok Média es la rama de medios de la asociación M'OYAPOK. El hub reúne la radio web, los pódcasts, la revista Yapok Mag, los vídeos, las fotos y la agenda cultural del este de la Guayana Francesa, y abre un espacio a los artistas, asociaciones y entidades del territorio."
+    }
+  }
+}

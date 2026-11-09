@@ -1,0 +1,66 @@
+{
+  "numeros": [
+    {
+      "numero": "0",
+      "titre": "Le fleuve en partage",
+      "date": "2026-11",
+      "couverture": "assets/img/visuel-3.svg",
+      "resume": "Le numéro zéro de Yapok Mag présente le hub, ses rubriques et les premières voix qui l'animent.",
+      "sommaire": [
+        "Édito : un média pour l'Est guyanais",
+        "Portrait d'un acteur du territoire",
+        "Patrimoine : les lieux de mémoire du bas Oyapock",
+        "L'agenda du mois",
+        "Coulisses : comment naît un épisode de Kozé Tan Lontan"
+      ],
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "O rio em comum",
+          "resume": "A edição zero da Yapok Mag apresenta o hub, suas seções e as primeiras vozes que o animam.",
+          "sommaire": [
+            "Editorial: uma mídia para o leste da Guiana Francesa",
+            "Perfil de um ator da região",
+            "Patrimônio: os lugares de memória do baixo Oyapock",
+            "A agenda do mês",
+            "Bastidores: como nasce um episódio de Kozé Tan Lontan"
+          ]
+        },
+        "en": {
+          "titre": "Sharing the river",
+          "resume": "Issue zero of Yapok Mag introduces the hub, its sections and the first voices behind it.",
+          "sommaire": [
+            "Editorial: a media outlet for eastern French Guiana",
+            "Profile of a local player",
+            "Heritage: places of memory on the lower Oyapock",
+            "This month's events",
+            "Behind the scenes: how a Kozé Tan Lontan episode is made"
+          ]
+        },
+        "nl": {
+          "titre": "De rivier delen",
+          "resume": "Nummer nul van Yapok Mag stelt de hub voor, de rubrieken en de eerste stemmen erachter.",
+          "sommaire": [
+            "Redactioneel: een medium voor Oost-Frans-Guyana",
+            "Portret van een lokale maker",
+            "Erfgoed: plekken van herinnering aan de benedenloop van de Oyapock",
+            "De agenda van de maand",
+            "Achter de schermen: zo ontstaat een aflevering van Kozé Tan Lontan"
+          ]
+        },
+        "es": {
+          "titre": "El río compartido",
+          "resume": "El número cero de Yapok Mag presenta el hub, sus secciones y las primeras voces que lo animan.",
+          "sommaire": [
+            "Editorial: un medio para el este de la Guayana Francesa",
+            "Retrato de un actor del territorio",
+            "Patrimonio: los lugares de memoria del bajo Oyapock",
+            "La agenda del mes",
+            "Entre bastidores: cómo nace un episodio de Kozé Tan Lontan"
+          ]
+        }
+      }
+    }
+  ]
+}

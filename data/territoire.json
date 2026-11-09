@@ -1,0 +1,96 @@
+{
+  "communes": [
+    {
+      "id": "regina",
+      "nom": "Régina",
+      "commune": "Régina",
+      "fleuve": "Approuague",
+      "villages": "Régina, Kaw",
+      "visuel": "assets/img/visuel-5.svg",
+      "description": "Sur l'Approuague, avec le village de Kaw au cœur des marais.",
+      "traductions": {
+        "pt": {
+          "description": "No Approuague, com a aldeia de Kaw no coração dos pântanos."
+        },
+        "en": {
+          "description": "On the Approuague, with the village of Kaw in the heart of the marshes."
+        },
+        "nl": {
+          "description": "Aan de Approuague, met het dorp Kaw midden in de moerassen."
+        },
+        "es": {
+          "description": "A orillas del Approuague, con el pueblo de Kaw en el corazón de los pantanos."
+        }
+      }
+    },
+    {
+      "id": "saint-georges",
+      "nom": "Saint-Georges",
+      "commune": "Saint-Georges de l'Oyapock",
+      "fleuve": "Oyapock",
+      "villages": "Saint-Georges, Tampak, Trois-Palétuviers",
+      "visuel": "assets/img/visuel-6.svg",
+      "description": "Le bourg frontalier face à Oiapoque, et les villages de la rive.",
+      "traductions": {
+        "pt": {
+          "description": "A vila de fronteira em frente a Oiapoque, e as aldeias da margem."
+        },
+        "en": {
+          "description": "The border town facing Oiapoque, and the riverside villages."
+        },
+        "nl": {
+          "description": "Het grensdorp tegenover Oiapoque, en de dorpen langs de oever."
+        },
+        "es": {
+          "description": "El pueblo fronterizo frente a Oiapoque, y los pueblos de la orilla."
+        }
+      }
+    },
+    {
+      "id": "ouanary",
+      "nom": "Ouanary",
+      "commune": "Ouanary",
+      "fleuve": "Oyapock",
+      "villages": "Ouanary",
+      "visuel": "assets/img/visuel-4.svg",
+      "description": "Près de l'embouchure de l'Oyapock, une commune que l'on rejoint par l'eau.",
+      "traductions": {
+        "pt": {
+          "description": "Perto da foz do Oyapock, um município que se alcança pela água."
+        },
+        "en": {
+          "description": "Near the mouth of the Oyapock, a town you reach by water."
+        },
+        "nl": {
+          "description": "Bij de monding van de Oyapock, een gemeente die je over het water bereikt."
+        },
+        "es": {
+          "description": "Cerca de la desembocadura del Oyapock, un municipio al que se llega por el agua."
+        }
+      }
+    },
+    {
+      "id": "camopi",
+      "nom": "Camopi",
+      "commune": "Camopi",
+      "fleuve": "Oyapock",
+      "villages": "Camopi, Trois-Sauts",
+      "visuel": "assets/img/visuel-2.svg",
+      "description": "En amont de l'Oyapock, jusqu'aux villages de Trois-Sauts.",
+      "traductions": {
+        "pt": {
+          "description": "Rio acima no Oyapock, até as aldeias de Trois-Sauts."
+        },
+        "en": {
+          "description": "Upriver on the Oyapock, as far as the villages of Trois-Sauts."
+        },
+        "nl": {
+          "description": "Stroomopwaarts aan de Oyapock, tot aan de dorpen van Trois-Sauts."
+        },
+        "es": {
+          "description": "Río arriba en el Oyapock, hasta los pueblos de Trois-Sauts."
+        }
+      }
+    }
+  ]
+}

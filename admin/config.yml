@@ -1,0 +1,1317 @@
+# Administration du hub Yapok Média (Decap CMS)
+# À compléter avant la mise en ligne : backend.repo, backend.base_url et site_url (voir README.md).
+# Chaque élément a un bloc « Traductions » (pt, en, nl, es) : vide = le français s'affiche.
+backend:
+  name: github
+  repo: VOTRE-COMPTE-GITHUB/yapok-media-hub
+  branch: main
+  base_url: https://www.votre-domaine.fr
+  auth_endpoint: /api/auth
+publish_mode: editorial_workflow
+locale: fr
+site_url: https://www.votre-domaine.fr
+logo_url: /assets/img/logo-moyapok-512.jpg
+media_folder: assets/uploads
+public_folder: assets/uploads
+collections:
+- name: reglages
+  label: Réglages du site
+  editor:
+    preview: false
+  files:
+  - name: site
+    label: Informations générales
+    file: data/site.json
+    format: json
+    fields:
+    - name: nom
+      label: Nom du hub
+      widget: string
+    - name: slogan
+      label: Slogan
+      widget: string
+    - name: presentation
+      label: Présentation
+      widget: text
+    - name: association
+      label: Association
+      widget: object
+      fields:
+      - name: nom
+        label: Nom
+        widget: string
+      - name: forme
+        label: Forme juridique
+        widget: string
+      - name: siren
+        label: SIREN
+        widget: string
+      - name: adresse
+        label: Adresse
+        widget: string
+      - name: email
+        label: E-mail
+        widget: string
+      - name: telephone
+        label: Téléphone
+        widget: string
+    - name: media
+      label: Yapok Média
+      widget: object
+      fields:
+      - name: email
+        label: E-mail
+        widget: string
+    - name: reseaux
+      label: Réseaux sociaux (liens complets, laisser vide pour masquer)
+      widget: object
+      fields:
+      - name: youtube
+        label: YouTube
+        widget: string
+        required: false
+      - name: tiktok
+        label: TikTok
+        widget: string
+        required: false
+      - name: facebook
+        label: Facebook
+        widget: string
+        required: false
+      - name: instagram
+        label: Instagram
+        widget: string
+        required: false
+    - name: radio
+      label: Webradio
+      widget: object
+      fields:
+      - name: nom
+        label: Nom de la radio
+        widget: string
+      - name: streamUrl
+        label: Adresse du flux audio (vide = radio pas encore lancée)
+        widget: string
+        required: false
+      - name: nowPlayingUrl
+        label: 'Adresse « titre en cours » (AzuraCast : /api/nowplaying/NOM)'
+        widget: string
+        required: false
+      - name: message
+        label: Message affiché avant le lancement
+        widget: string
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: message
+            label: Message avant le lancement
+            widget: string
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: message
+            label: Message avant le lancement
+            widget: string
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: message
+            label: Message avant le lancement
+            widget: string
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: message
+            label: Message avant le lancement
+            widget: string
+            required: false
+    - name: formulaires
+      label: Formulaires (adresses Formspree, vide = message d'attente)
+      widget: object
+      fields:
+      - name: candidature
+        label: Candidature
+        widget: string
+        required: false
+      - name: contribution
+        label: Proposer un contenu
+        widget: string
+        required: false
+      - name: newsletter
+        label: Lettre d'information
+        widget: string
+        required: false
+      - name: contact
+        label: Contact
+        widget: string
+        required: false
+    - name: mentions
+      label: Mentions légales
+      widget: object
+      fields:
+      - name: directeurPublication
+        label: Directeur de publication
+        widget: string
+      - name: hebergeurNom
+        label: Hébergeur
+        widget: string
+      - name: hebergeurAdresse
+        label: Adresse de l'hébergeur
+        widget: string
+      - name: hebergeurSite
+        label: Site de l'hébergeur
+        widget: string
+    - name: traductions
+      label: 'Traductions (facultatif : le français s''affiche si vide)'
+      widget: object
+      required: false
+      collapsed: true
+      fields:
+      - name: pt
+        label: Português
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: slogan
+          label: Slogan
+          widget: string
+          required: false
+        - name: presentation
+          label: Présentation
+          widget: text
+          required: false
+      - name: en
+        label: English
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: slogan
+          label: Slogan
+          widget: string
+          required: false
+        - name: presentation
+          label: Présentation
+          widget: text
+          required: false
+      - name: nl
+        label: Nederlands
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: slogan
+          label: Slogan
+          widget: string
+          required: false
+        - name: presentation
+          label: Présentation
+          widget: text
+          required: false
+      - name: es
+        label: Español
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: slogan
+          label: Slogan
+          widget: string
+          required: false
+        - name: presentation
+          label: Présentation
+          widget: text
+          required: false
+- name: contenus
+  label: Contenus
+  editor:
+    preview: false
+  files:
+  - name: territoire
+    label: Territoire (les 4 communes)
+    file: data/territoire.json
+    format: json
+    fields:
+    - name: communes
+      label: Communes
+      widget: list
+      summary: '{{fields.nom}}'
+      fields:
+      - name: id
+        label: Identifiant
+        widget: string
+      - name: nom
+        label: Nom affiché
+        widget: string
+      - name: commune
+        label: Commune (pour les filtres)
+        widget: select
+        options: &id001
+        - Régina
+        - Saint-Georges de l'Oyapock
+        - Ouanary
+        - Camopi
+      - name: fleuve
+        label: Fleuve
+        widget: string
+      - name: villages
+        label: Villages
+        widget: string
+      - name: visuel
+        label: Visuel
+        widget: image
+        required: false
+      - name: description
+        label: Description
+        widget: text
+      - name: traductions
+        label: Traductions (facultatif)
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: description
+            label: Description
+            widget: text
+            required: false
+  - name: podcasts
+    label: Podcasts
+    file: data/podcasts.json
+    format: json
+    fields:
+    - name: series
+      label: Séries
+      widget: list
+      summary: '{{fields.titre}}'
+      fields:
+      - name: id
+        label: Identifiant (sans espace ni accent)
+        widget: string
+      - name: titre
+        label: Titre
+        widget: string
+      - name: accroche
+        label: Accroche
+        widget: string
+      - name: description
+        label: Description
+        widget: text
+      - name: visuel
+        label: Visuel
+        widget: image
+        required: false
+      - name: episodes
+        label: Épisodes
+        widget: list
+        summary: '{{fields.titre}}'
+        fields:
+        - name: titre
+          label: Titre
+          widget: string
+        - name: invite
+          label: Invité
+          widget: string
+          required: false
+        - name: commune
+          label: Commune
+          widget: select
+          options: *id001
+          required: false
+        - name: date
+          label: Date (AAAA-MM-JJ)
+          widget: string
+          required: false
+        - name: duree
+          label: Durée (ex. 32 min)
+          widget: string
+          required: false
+        - name: audio
+          label: Fichier audio (MP3)
+          widget: file
+          required: false
+        - name: description
+          label: Description
+          widget: text
+          required: false
+        - name: exemple
+          label: Contenu d'exemple
+          widget: boolean
+          default: false
+        - name: traductions
+          label: 'Traductions (facultatif : le français s''affiche si vide)'
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: pt
+            label: Português
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+            - name: titre
+              label: Titre
+              widget: string
+              required: false
+            - name: invite
+              label: Invité
+              widget: string
+              required: false
+            - name: description
+              label: Description
+              widget: text
+              required: false
+          - name: en
+            label: English
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+            - name: titre
+              label: Titre
+              widget: string
+              required: false
+            - name: invite
+              label: Invité
+              widget: string
+              required: false
+            - name: description
+              label: Description
+              widget: text
+              required: false
+          - name: nl
+            label: Nederlands
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+            - name: titre
+              label: Titre
+              widget: string
+              required: false
+            - name: invite
+              label: Invité
+              widget: string
+              required: false
+            - name: description
+              label: Description
+              widget: text
+              required: false
+          - name: es
+            label: Español
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+            - name: titre
+              label: Titre
+              widget: string
+              required: false
+            - name: invite
+              label: Invité
+              widget: string
+              required: false
+            - name: description
+              label: Description
+              widget: text
+              required: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+  - name: mag
+    label: Yapok Mag
+    file: data/mag.json
+    format: json
+    fields:
+    - name: numeros
+      label: Numéros (le premier de la liste est le plus récent)
+      widget: list
+      summary: N° {{fields.numero}} · {{fields.titre}}
+      fields:
+      - name: numero
+        label: Numéro
+        widget: string
+      - name: titre
+        label: Titre
+        widget: string
+      - name: date
+        label: Mois de parution (AAAA-MM)
+        widget: string
+      - name: couverture
+        label: Couverture
+        widget: image
+        required: false
+      - name: resume
+        label: Résumé
+        widget: text
+      - name: sommaire
+        label: Sommaire
+        widget: list
+        field:
+          name: ligne
+          label: Article
+          widget: string
+      - name: lien
+        label: Lien vers le numéro (PDF ou page)
+        widget: string
+        required: false
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: resume
+            label: Résumé
+            widget: text
+            required: false
+          - name: sommaire
+            label: Sommaire
+            widget: list
+            field: &id002
+              name: ligne
+              label: Article
+              widget: string
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: resume
+            label: Résumé
+            widget: text
+            required: false
+          - name: sommaire
+            label: Sommaire
+            widget: list
+            field: *id002
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: resume
+            label: Résumé
+            widget: text
+            required: false
+          - name: sommaire
+            label: Sommaire
+            widget: list
+            field: *id002
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: resume
+            label: Résumé
+            widget: text
+            required: false
+          - name: sommaire
+            label: Sommaire
+            widget: list
+            field: *id002
+            required: false
+  - name: videos
+    label: Vidéos
+    file: data/videos.json
+    format: json
+    fields:
+    - name: videos
+      label: Vidéos
+      widget: list
+      summary: '{{fields.titre}}'
+      fields:
+      - name: titre
+        label: Titre
+        widget: string
+      - name: theme
+        label: Thème
+        widget: string
+      - name: commune
+        label: Commune
+        widget: select
+        options: *id001
+        required: false
+      - name: youtubeId
+        label: Identifiant YouTube (les caractères après watch?v=)
+        widget: string
+        required: false
+      - name: lien
+        label: Autre lien
+        widget: string
+        required: false
+      - name: description
+        label: Description
+        widget: text
+        required: false
+      - name: visuel
+        label: Visuel (si pas de YouTube)
+        widget: image
+        required: false
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: theme
+            label: Thème
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: theme
+            label: Thème
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: theme
+            label: Thème
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: theme
+            label: Thème
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+  - name: photos
+    label: Photos
+    file: data/photos.json
+    format: json
+    fields:
+    - name: photos
+      label: Photos
+      widget: list
+      summary: '{{fields.album}} · {{fields.legende}}'
+      fields:
+      - name: src
+        label: Photo
+        widget: image
+      - name: album
+        label: Album
+        widget: string
+      - name: commune
+        label: Commune
+        widget: select
+        options: *id001
+        required: false
+      - name: legende
+        label: Légende
+        widget: string
+      - name: credit
+        label: Photographe
+        widget: string
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: album
+            label: Album
+            widget: string
+            required: false
+          - name: legende
+            label: Légende
+            widget: string
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: album
+            label: Album
+            widget: string
+            required: false
+          - name: legende
+            label: Légende
+            widget: string
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: album
+            label: Album
+            widget: string
+            required: false
+          - name: legende
+            label: Légende
+            widget: string
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: album
+            label: Album
+            widget: string
+            required: false
+          - name: legende
+            label: Légende
+            widget: string
+            required: false
+  - name: agenda
+    label: Agenda
+    file: data/agenda.json
+    format: json
+    fields:
+    - name: evenements
+      label: Événements
+      widget: list
+      summary: '{{fields.date}} · {{fields.titre}}'
+      fields:
+      - name: titre
+        label: Titre
+        widget: string
+      - name: date
+        label: Date (AAAA-MM-JJ)
+        widget: string
+      - name: heure
+        label: Heure
+        widget: string
+        required: false
+      - name: lieu
+        label: Lieu
+        widget: string
+        required: false
+      - name: commune
+        label: Commune
+        widget: select
+        options: *id001
+      - name: organisateur
+        label: Organisateur (même nom que sa fiche acteur)
+        widget: string
+      - name: description
+        label: Description
+        widget: text
+        required: false
+      - name: lien
+        label: Lien
+        widget: string
+        required: false
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: lieu
+            label: Lieu
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: lieu
+            label: Lieu
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: lieu
+            label: Lieu
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: titre
+            label: Titre
+            widget: string
+            required: false
+          - name: lieu
+            label: Lieu
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+  - name: acteurs
+    label: Acteurs du hub
+    file: data/acteurs.json
+    format: json
+    fields:
+    - name: acteurs
+      label: Acteurs
+      widget: list
+      summary: '{{fields.nom}} ({{fields.niveau}})'
+      fields:
+      - name: id
+        label: Identifiant (sans espace ni accent)
+        widget: string
+      - name: nom
+        label: Nom
+        widget: string
+      - name: type
+        label: Type
+        widget: string
+      - name: niveau
+        label: Niveau
+        widget: select
+        options:
+        - Éditeur
+        - Contributeur
+        - Partenaire
+        - Antenne
+      - name: commune
+        label: Commune
+        widget: string
+      - name: accroche
+        label: Accroche
+        widget: string
+      - name: presentation
+        label: Présentation
+        widget: text
+      - name: visuel
+        label: Visuel
+        widget: image
+        required: false
+      - name: email
+        label: E-mail public
+        widget: string
+        required: false
+      - name: telephone
+        label: Téléphone public
+        widget: string
+        required: false
+      - name: site
+        label: Site web
+        widget: string
+        required: false
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: nom
+            label: Nom
+            widget: string
+            required: false
+          - name: type
+            label: Type
+            widget: string
+            required: false
+          - name: commune
+            label: Commune
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: presentation
+            label: Présentation
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: nom
+            label: Nom
+            widget: string
+            required: false
+          - name: type
+            label: Type
+            widget: string
+            required: false
+          - name: commune
+            label: Commune
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: presentation
+            label: Présentation
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: nom
+            label: Nom
+            widget: string
+            required: false
+          - name: type
+            label: Type
+            widget: string
+            required: false
+          - name: commune
+            label: Commune
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: presentation
+            label: Présentation
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: nom
+            label: Nom
+            widget: string
+            required: false
+          - name: type
+            label: Type
+            widget: string
+            required: false
+          - name: commune
+            label: Commune
+            widget: string
+            required: false
+          - name: accroche
+            label: Accroche
+            widget: string
+            required: false
+          - name: presentation
+            label: Présentation
+            widget: text
+            required: false
+  - name: radio
+    label: Grille de la webradio
+    file: data/radio.json
+    format: json
+    fields:
+    - name: grille
+      label: Émissions
+      widget: list
+      summary: '{{fields.jour}} {{fields.heure}} · {{fields.titre}}'
+      fields:
+      - name: jour
+        label: Jour
+        widget: string
+      - name: heure
+        label: Heure
+        widget: string
+      - name: titre
+        label: Émission
+        widget: string
+      - name: animation
+        label: Animation
+        widget: string
+      - name: description
+        label: Description
+        widget: text
+      - name: exemple
+        label: Contenu d'exemple
+        widget: boolean
+        default: false
+      - name: traductions
+        label: 'Traductions (facultatif : le français s''affiche si vide)'
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+        - name: pt
+          label: Português
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: jour
+            label: Jour
+            widget: string
+            required: false
+          - name: heure
+            label: Heure
+            widget: string
+            required: false
+          - name: titre
+            label: Émission
+            widget: string
+            required: false
+          - name: animation
+            label: Animation
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: en
+          label: English
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: jour
+            label: Jour
+            widget: string
+            required: false
+          - name: heure
+            label: Heure
+            widget: string
+            required: false
+          - name: titre
+            label: Émission
+            widget: string
+            required: false
+          - name: animation
+            label: Animation
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: nl
+          label: Nederlands
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: jour
+            label: Jour
+            widget: string
+            required: false
+          - name: heure
+            label: Heure
+            widget: string
+            required: false
+          - name: titre
+            label: Émission
+            widget: string
+            required: false
+          - name: animation
+            label: Animation
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false
+        - name: es
+          label: Español
+          widget: object
+          required: false
+          collapsed: true
+          fields:
+          - name: jour
+            label: Jour
+            widget: string
+            required: false
+          - name: heure
+            label: Heure
+            widget: string
+            required: false
+          - name: titre
+            label: Émission
+            widget: string
+            required: false
+          - name: animation
+            label: Animation
+            widget: string
+            required: false
+          - name: description
+            label: Description
+            widget: text
+            required: false

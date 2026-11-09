@@ -1,0 +1,254 @@
+{
+  "series": [
+    {
+      "id": "koze-tan-lontan",
+      "titre": "Kozé Tan Lontan",
+      "accroche": "La mémoire de l'Est guyanais, racontée par celles et ceux qui l'ont vécue.",
+      "description": "Chaque épisode donne la parole à un invité qui raconte un lieu de l'Est guyanais, hier et aujourd'hui : la vie au bourg, le fleuve, les fêtes, les métiers, les familles.",
+      "visuel": "assets/img/visuel-1.svg",
+      "episodes": [
+        {
+          "titre": "Saint-Georges, hier et aujourd'hui",
+          "invite": "Invité à annoncer",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "description": "Le bourg, le marché, le fleuve et la frontière, vus par un habitant de longue date.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Saint-Georges, ontem e hoje",
+              "description": "A vila, o mercado, o rio e a fronteira, vistos por um morador antigo.",
+              "invite": "Convidado a anunciar"
+            },
+            "en": {
+              "titre": "Saint-Georges, then and now",
+              "description": "The village, the market, the river and the border, seen by a long-time resident.",
+              "invite": "Guest to be announced"
+            },
+            "nl": {
+              "titre": "Saint-Georges, vroeger en nu",
+              "description": "Het dorp, de markt, de rivier en de grens, gezien door een vaste bewoner.",
+              "invite": "Gast volgt"
+            },
+            "es": {
+              "titre": "Saint-Georges, ayer y hoy",
+              "description": "El pueblo, el mercado, el río y la frontera, vistos por un vecino de toda la vida.",
+              "invite": "Invitado por anunciar"
+            }
+          },
+          "commune": "Saint-Georges de l'Oyapock"
+        },
+        {
+          "titre": "Régina et Kaw, entre fleuve et marais",
+          "invite": "Invité à annoncer",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "commune": "Régina",
+          "description": "La vie au bord de l'Approuague et dans le village de Kaw, racontée par celles et ceux qui y ont grandi.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Régina e Kaw, entre rio e pântano",
+              "invite": "Convidado a anunciar",
+              "description": "A vida às margens do Approuague e na aldeia de Kaw, contada por quem cresceu ali."
+            },
+            "en": {
+              "titre": "Régina and Kaw, between river and marsh",
+              "invite": "Guest to be announced",
+              "description": "Life along the Approuague and in the village of Kaw, told by people who grew up there."
+            },
+            "nl": {
+              "titre": "Régina en Kaw, tussen rivier en moeras",
+              "invite": "Gast volgt",
+              "description": "Het leven langs de Approuague en in het dorp Kaw, verteld door wie er is opgegroeid."
+            },
+            "es": {
+              "titre": "Régina y Kaw, entre río y pantano",
+              "invite": "Invitado por anunciar",
+              "description": "La vida a orillas del Approuague y en el pueblo de Kaw, contada por quienes crecieron allí."
+            }
+          }
+        },
+        {
+          "titre": "Tampak, le village de la rive",
+          "invite": "Invité à annoncer",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "description": "Souvenirs d'un village du bas Oyapock et de ses familles.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Tampak, a aldeia da margem",
+              "description": "Lembranças de uma aldeia do baixo Oyapock e de suas famílias.",
+              "invite": "Convidado a anunciar"
+            },
+            "en": {
+              "titre": "Tampak, the riverside village",
+              "description": "Memories of a village on the lower Oyapock and its families.",
+              "invite": "Guest to be announced"
+            },
+            "nl": {
+              "titre": "Tampak, het dorp aan de oever",
+              "description": "Herinneringen aan een dorp aan de benedenloop van de Oyapock en zijn families.",
+              "invite": "Gast volgt"
+            },
+            "es": {
+              "titre": "Tampak, el pueblo de la orilla",
+              "description": "Recuerdos de un pueblo del bajo Oyapock y de sus familias.",
+              "invite": "Invitado por anunciar"
+            }
+          },
+          "commune": "Saint-Georges de l'Oyapock"
+        },
+        {
+          "titre": "Ouanary, au bout de la route d'eau",
+          "invite": "Invité à annoncer",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "description": "La vie dans une commune que l'on rejoint par le fleuve.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Ouanary, no fim do caminho pelo rio",
+              "description": "A vida num município que só se alcança pelo rio.",
+              "invite": "Convidado a anunciar"
+            },
+            "en": {
+              "titre": "Ouanary, at the end of the river road",
+              "description": "Life in a town you can only reach by river.",
+              "invite": "Guest to be announced"
+            },
+            "nl": {
+              "titre": "Ouanary, aan het eind van de waterweg",
+              "description": "Het leven in een gemeente die je alleen over het water bereikt.",
+              "invite": "Gast volgt"
+            },
+            "es": {
+              "titre": "Ouanary, al final del camino por el río",
+              "description": "La vida en un municipio al que se llega por el río.",
+              "invite": "Invitado por anunciar"
+            }
+          },
+          "commune": "Ouanary"
+        },
+        {
+          "titre": "Trois-Palétuviers, entre deux rives",
+          "invite": "Invité à annoncer",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "description": "Un village, ses traditions et ses échanges avec le Brésil voisin.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Trois-Palétuviers, entre duas margens",
+              "description": "Uma aldeia, suas tradições e suas trocas com o Brasil vizinho.",
+              "invite": "Convidado a anunciar"
+            },
+            "en": {
+              "titre": "Trois-Palétuviers, between two banks",
+              "description": "A village, its traditions and its ties with neighbouring Brazil.",
+              "invite": "Guest to be announced"
+            },
+            "nl": {
+              "titre": "Trois-Palétuviers, tussen twee oevers",
+              "description": "Een dorp, zijn tradities en zijn banden met buurland Brazilië.",
+              "invite": "Gast volgt"
+            },
+            "es": {
+              "titre": "Trois-Palétuviers, entre dos orillas",
+              "description": "Un pueblo, sus tradiciones y sus intercambios con el vecino Brasil.",
+              "invite": "Invitado por anunciar"
+            }
+          },
+          "commune": "Saint-Georges de l'Oyapock"
+        }
+      ],
+      "traductions": {
+        "pt": {
+          "accroche": "A memória do leste da Guiana Francesa, contada por quem a viveu.",
+          "description": "Cada episódio dá a palavra a um convidado que conta um lugar do leste da Guiana Francesa, ontem e hoje: a vida na vila, o rio, as festas, os ofícios, as famílias."
+        },
+        "en": {
+          "accroche": "The memory of eastern French Guiana, told by those who lived it.",
+          "description": "Each episode gives the floor to a guest who tells the story of a place in eastern French Guiana, then and now: village life, the river, festivals, trades, families."
+        },
+        "nl": {
+          "accroche": "Het geheugen van Oost-Frans-Guyana, verteld door wie het heeft meegemaakt.",
+          "description": "In elke aflevering vertelt een gast over een plek in Oost-Frans-Guyana, vroeger en nu: het dorpsleven, de rivier, de feesten, de ambachten, de families."
+        },
+        "es": {
+          "accroche": "La memoria del este de la Guayana Francesa, contada por quienes la vivieron.",
+          "description": "Cada episodio da la palabra a un invitado que cuenta un lugar del este de la Guayana Francesa, ayer y hoy: la vida en el pueblo, el río, las fiestas, los oficios, las familias."
+        }
+      }
+    },
+    {
+      "id": "la-voix-des-jeunes",
+      "titre": "La voix des jeunes",
+      "accroche": "Les jeunes du territoire prennent le micro.",
+      "description": "Reportages, slams et interviews réalisés lors des ateliers radio de M'OYAPOK.",
+      "visuel": "assets/img/visuel-2.svg",
+      "episodes": [
+        {
+          "titre": "Premier atelier : notre fleuve",
+          "invite": "Atelier radio",
+          "date": "",
+          "duree": "",
+          "audio": "",
+          "description": "Les participants racontent l'Oyapock avec leurs mots.",
+          "exemple": true,
+          "traductions": {
+            "pt": {
+              "titre": "Primeira oficina: nosso rio",
+              "description": "Os participantes contam o Oyapock com suas próprias palavras.",
+              "invite": "Oficina de rádio"
+            },
+            "en": {
+              "titre": "First workshop: our river",
+              "description": "Participants describe the Oyapock in their own words.",
+              "invite": "Radio workshop"
+            },
+            "nl": {
+              "titre": "Eerste workshop: onze rivier",
+              "description": "De deelnemers vertellen over de Oyapock in hun eigen woorden.",
+              "invite": "Radioworkshop"
+            },
+            "es": {
+              "titre": "Primer taller: nuestro río",
+              "description": "Los participantes cuentan el Oyapock con sus propias palabras.",
+              "invite": "Taller de radio"
+            }
+          },
+          "commune": "Saint-Georges de l'Oyapock"
+        }
+      ],
+      "traductions": {
+        "pt": {
+          "titre": "A voz dos jovens",
+          "accroche": "Os jovens da região pegam o microfone.",
+          "description": "Reportagens, slams e entrevistas feitos nas oficinas de rádio da M'OYAPOK."
+        },
+        "en": {
+          "titre": "Youth voices",
+          "accroche": "Young people from the region take the mic.",
+          "description": "Reports, slam poetry and interviews made in M'OYAPOK's radio workshops."
+        },
+        "nl": {
+          "titre": "De stem van de jongeren",
+          "accroche": "Jongeren uit de regio pakken de microfoon.",
+          "description": "Reportages, slams en interviews gemaakt in de radioworkshops van M'OYAPOK."
+        },
+        "es": {
+          "titre": "La voz de los jóvenes",
+          "accroche": "Los jóvenes del territorio toman el micrófono.",
+          "description": "Reportajes, slams y entrevistas realizados en los talleres de radio de M'OYAPOK."
+        }
+      }
+    }
+  ]
+}

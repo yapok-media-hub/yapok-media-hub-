@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Yapok Mag · Yapok Média</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Yapok Mag, le webzine mensuel de Yapok Média : portraits, patrimoine, reportages et agenda de l&#x27;Est guyanais.">
+<meta property="og:title" content="Yapok Mag · Yapok Média">
+<meta property="og:description" content="Yapok Mag, le webzine mensuel de Yapok Média : portraits, patrimoine, reportages et agenda de l&#x27;Est guyanais.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/logo-moyapok-512.jpg">
+<meta name="theme-color" content="#E8F8F0">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/archivo-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/i18n.js"></script>
+</head>
+<body data-page="mag" data-title-key="nav.mag">
+<div id="site-header"></div>
+<main id="main">
+<section class="page-head"><div class="wrap">
+<p class="eyebrow" data-i18n="mag.eyebrow">Webzine mensuel</p>
+<h1 class="display">Yapok Mag</h1>
+<p class="lead" data-i18n="mag.lead">Chaque mois, des portraits, des reportages, le patrimoine et l&#x27;agenda de l&#x27;Est guyanais.</p>
+</div></section><section class="section"><div class="wrap" id="mag-current"></div></section>
+<section class="section band-dark"><div class="wrap split">
+<div class="stack"><p class="eyebrow" data-i18n="nl.eyebrow">Lettre d&#x27;information</p><h2 class="display" style="font-size:clamp(1.7rem,1.1rem + 2vw,2.5rem)" data-i18n="nl.title">Recevoir Yapok Mag</h2><p class="muted" data-i18n="nl.text">Un e-mail par mois pour être prévenu de la sortie du magazine. Désinscription en un clic.</p></div>
+<form class="form" data-form="newsletter" data-success-key="nl.success" style="color:var(--ink)">
+<div class="field"><label for="nl-email"><span data-i18n="nl.email">Adresse e-mail</span></label><input id="nl-email" name="email" type="email" required autocomplete="email" placeholder="vous@exemple.fr" data-i18n-ph="nl.placeholder"></div>
+<label class="choice" for="nl-ok"><input id="nl-ok" name="consentement" type="checkbox" required> <span data-i18n="nl.consent">J'accepte de recevoir la lettre d'information de Yapok Média.</span></label>
+<button class="btn btn-primary" type="submit" data-i18n="nl.submit">S'inscrire</button>
+<p class="form-status" role="status" hidden></p>
+</form>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="section-head"><div><p class="eyebrow" data-i18n="mag.archEyebrow">Archives</p><h2 data-i18n="mag.archTitle">Numéros précédents</h2></div></div>
+<div class="grid grid-3" id="mag-archives"></div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

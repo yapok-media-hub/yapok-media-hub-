@@ -1,0 +1,186 @@
+{
+  "photos": [
+    {
+      "src": "assets/img/visuel-6.svg",
+      "album": "Fleuve Oyapock",
+      "legende": "Le fleuve au petit matin",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Rio Oyapock",
+          "legende": "O rio de manhã cedo"
+        },
+        "en": {
+          "album": "Oyapock River",
+          "legende": "The river at dawn"
+        },
+        "nl": {
+          "album": "Rivier de Oyapock",
+          "legende": "De rivier in de vroege ochtend"
+        },
+        "es": {
+          "album": "Río Oyapock",
+          "legende": "El río al amanecer"
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "src": "assets/img/visuel-5.svg",
+      "album": "Fleuve Approuague",
+      "legende": "L'Approuague à Régina",
+      "credit": "Yapok Média",
+      "commune": "Régina",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Rio Approuague",
+          "legende": "O Approuague em Régina"
+        },
+        "en": {
+          "album": "Approuague River",
+          "legende": "The Approuague at Régina"
+        },
+        "nl": {
+          "album": "Rivier de Approuague",
+          "legende": "De Approuague bij Régina"
+        },
+        "es": {
+          "album": "Río Approuague",
+          "legende": "El Approuague en Régina"
+        }
+      }
+    },
+    {
+      "src": "assets/img/visuel-4.svg",
+      "album": "Patrimoine",
+      "legende": "Anciennes habitations du bas Oyapock",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Patrimônio",
+          "legende": "Casas antigas do baixo Oyapock"
+        },
+        "en": {
+          "album": "Heritage",
+          "legende": "Old houses on the lower Oyapock"
+        },
+        "nl": {
+          "album": "Erfgoed",
+          "legende": "Oude huizen aan de benedenloop van de Oyapock"
+        },
+        "es": {
+          "album": "Patrimonio",
+          "legende": "Casas antiguas del bajo Oyapock"
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "src": "assets/img/visuel-2.svg",
+      "album": "Événements",
+      "legende": "Scène ouverte au bourg",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Eventos",
+          "legende": "Palco aberto na vila"
+        },
+        "en": {
+          "album": "Events",
+          "legende": "Open stage in the village"
+        },
+        "nl": {
+          "album": "Evenementen",
+          "legende": "Open podium in het dorp"
+        },
+        "es": {
+          "album": "Eventos",
+          "legende": "Escenario abierto en el pueblo"
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "src": "assets/img/visuel-5.svg",
+      "album": "Fleuve Oyapock",
+      "legende": "Pirogues au débarcadère",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Rio Oyapock",
+          "legende": "Pirogas no embarcadouro"
+        },
+        "en": {
+          "album": "Oyapock River",
+          "legende": "Pirogues at the landing"
+        },
+        "nl": {
+          "album": "Rivier de Oyapock",
+          "legende": "Korjalen bij de aanlegplaats"
+        },
+        "es": {
+          "album": "Río Oyapock",
+          "legende": "Piraguas en el embarcadero"
+        }
+      },
+      "commune": "Ouanary"
+    },
+    {
+      "src": "assets/img/visuel-1.svg",
+      "album": "Patrimoine",
+      "legende": "Savoir-faire et objets du quotidien",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Patrimônio",
+          "legende": "Saberes e objetos do dia a dia"
+        },
+        "en": {
+          "album": "Heritage",
+          "legende": "Everyday crafts and objects"
+        },
+        "nl": {
+          "album": "Erfgoed",
+          "legende": "Vakmanschap en alledaagse voorwerpen"
+        },
+        "es": {
+          "album": "Patrimonio",
+          "legende": "Saberes y objetos cotidianos"
+        }
+      },
+      "commune": "Saint-Georges de l'Oyapock"
+    },
+    {
+      "src": "assets/img/visuel-3.svg",
+      "album": "Événements",
+      "legende": "Atelier radio avec les jeunes",
+      "credit": "Yapok Média",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "album": "Eventos",
+          "legende": "Oficina de rádio com os jovens"
+        },
+        "en": {
+          "album": "Events",
+          "legende": "Radio workshop with young people"
+        },
+        "nl": {
+          "album": "Evenementen",
+          "legende": "Radioworkshop met jongeren"
+        },
+        "es": {
+          "album": "Eventos",
+          "legende": "Taller de radio con los jóvenes"
+        }
+      },
+      "commune": "Camopi"
+    }
+  ]
+}

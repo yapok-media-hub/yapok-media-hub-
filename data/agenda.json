@@ -1,0 +1,198 @@
+{
+  "evenements": [
+    {
+      "titre": "Lancement du hub Yapok Média",
+      "date": "2027-01-23",
+      "heure": "18:00",
+      "lieu": "Bourg",
+      "commune": "Saint-Georges de l'Oyapock",
+      "organisateur": "M'OYAPOK",
+      "description": "Présentation publique de la plateforme, écoute des premiers podcasts et rencontre avec les acteurs du hub.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Lançamento do hub Yapok Média",
+          "description": "Apresentação pública da plataforma, audição dos primeiros podcasts e encontro com os membros do hub.",
+          "lieu": "Centro da vila"
+        },
+        "en": {
+          "titre": "Launch of the Yapok Média hub",
+          "description": "Public presentation of the platform, first podcast listening session and a meet-up with hub members.",
+          "lieu": "Village centre"
+        },
+        "nl": {
+          "titre": "Lancering van de hub Yapok Média",
+          "description": "Publieke presentatie van het platform, luistersessie van de eerste podcasts en ontmoeting met de deelnemers.",
+          "lieu": "Dorpskern"
+        },
+        "es": {
+          "titre": "Lanzamiento del hub Yapok Média",
+          "description": "Presentación pública de la plataforma, escucha de los primeros pódcasts y encuentro con los miembros del hub.",
+          "lieu": "Centro del pueblo"
+        }
+      }
+    },
+    {
+      "titre": "Enregistrement public de Kozé Tan Lontan",
+      "date": "2027-02-13",
+      "heure": "16:00",
+      "lieu": "À préciser",
+      "commune": "Saint-Georges de l'Oyapock",
+      "organisateur": "Yapok Média",
+      "description": "Un épisode enregistré devant le public, avec un invité qui raconte le Saint-Georges d'autrefois.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Gravação pública de Kozé Tan Lontan",
+          "description": "Um episódio gravado diante do público, com um convidado que conta a Saint-Georges de antigamente.",
+          "lieu": "A definir"
+        },
+        "en": {
+          "titre": "Live recording of Kozé Tan Lontan",
+          "description": "An episode recorded in front of an audience, with a guest recalling Saint-Georges in days gone by.",
+          "lieu": "To be confirmed"
+        },
+        "nl": {
+          "titre": "Publieke opname van Kozé Tan Lontan",
+          "description": "Een aflevering opgenomen met publiek, met een gast die over het Saint-Georges van vroeger vertelt.",
+          "lieu": "Nog te bepalen"
+        },
+        "es": {
+          "titre": "Grabación pública de Kozé Tan Lontan",
+          "description": "Un episodio grabado ante el público, con un invitado que cuenta el Saint-Georges de antaño.",
+          "lieu": "Por precisar"
+        }
+      }
+    },
+    {
+      "titre": "Atelier radio jeunesse",
+      "date": "2027-03-06",
+      "heure": "09:30",
+      "lieu": "À préciser",
+      "commune": "Camopi",
+      "organisateur": "M'OYAPOK",
+      "description": "Découverte du micro, de l'interview et du montage son pour les 12-17 ans.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Oficina de rádio jovem",
+          "description": "Descoberta do microfone, da entrevista e da edição de som para jovens de 12 a 17 anos.",
+          "lieu": "A definir"
+        },
+        "en": {
+          "titre": "Youth radio workshop",
+          "description": "An introduction to the microphone, interviewing and sound editing for 12 to 17-year-olds.",
+          "lieu": "To be confirmed"
+        },
+        "nl": {
+          "titre": "Radioworkshop voor jongeren",
+          "description": "Kennismaking met de microfoon, het interview en geluidsmontage voor 12- tot 17-jarigen.",
+          "lieu": "Nog te bepalen"
+        },
+        "es": {
+          "titre": "Taller de radio juvenil",
+          "description": "Descubrimiento del micrófono, la entrevista y la edición de sonido para jóvenes de 12 a 17 años.",
+          "lieu": "Por precisar"
+        }
+      }
+    },
+    {
+      "titre": "Journée patrimoine à Tampak",
+      "date": "2027-04-10",
+      "heure": "09:00",
+      "lieu": "Tampak",
+      "commune": "Saint-Georges de l'Oyapock",
+      "organisateur": "M'OYAPOK",
+      "description": "Visite des lieux de mémoire du village et collecte de témoignages.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Dia do patrimônio em Tampak",
+          "description": "Visita aos lugares de memória da aldeia e coleta de depoimentos."
+        },
+        "en": {
+          "titre": "Heritage day in Tampak",
+          "description": "A visit to the village's places of memory and a collection of testimonies."
+        },
+        "nl": {
+          "titre": "Erfgoeddag in Tampak",
+          "description": "Bezoek aan de plekken van herinnering in het dorp en verzameling van getuigenissen."
+        },
+        "es": {
+          "titre": "Jornada de patrimonio en Tampak",
+          "description": "Visita a los lugares de memoria del pueblo y recogida de testimonios."
+        }
+      }
+    },
+    {
+      "titre": "Kozé Tan Lontan à Régina",
+      "date": "2027-05-15",
+      "heure": "15:00",
+      "lieu": "À préciser",
+      "commune": "Régina",
+      "organisateur": "Yapok Média",
+      "description": "Enregistrement d'un épisode avec les habitants de Régina et de Kaw, suivi d'une écoute collective.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Kozé Tan Lontan em Régina",
+          "lieu": "A definir",
+          "description": "Gravação de um episódio com os moradores de Régina e Kaw, seguida de uma audição coletiva."
+        },
+        "en": {
+          "titre": "Kozé Tan Lontan in Régina",
+          "lieu": "To be confirmed",
+          "description": "Recording an episode with residents of Régina and Kaw, followed by a group listening session."
+        },
+        "nl": {
+          "titre": "Kozé Tan Lontan in Régina",
+          "lieu": "Nog te bepalen",
+          "description": "Opname van een aflevering met inwoners van Régina en Kaw, gevolgd door een gezamenlijke luistersessie."
+        },
+        "es": {
+          "titre": "Kozé Tan Lontan en Régina",
+          "lieu": "Por precisar",
+          "description": "Grabación de un episodio con los vecinos de Régina y Kaw, seguida de una escucha colectiva."
+        }
+      }
+    },
+    {
+      "titre": "Veillée contes et chants à Ouanary",
+      "date": "2027-06-12",
+      "heure": "19:00",
+      "lieu": "À préciser",
+      "commune": "Ouanary",
+      "organisateur": "M'OYAPOK",
+      "description": "Une soirée de contes et de chants traditionnels, enregistrée pour la webradio.",
+      "lien": "",
+      "exemple": true,
+      "traductions": {
+        "pt": {
+          "titre": "Noite de contos e cantos em Ouanary",
+          "lieu": "A definir",
+          "description": "Uma noite de contos e cantos tradicionais, gravada para a rádio web."
+        },
+        "en": {
+          "titre": "Storytelling and song evening in Ouanary",
+          "lieu": "To be confirmed",
+          "description": "An evening of traditional stories and songs, recorded for the web radio."
+        },
+        "nl": {
+          "titre": "Avond met verhalen en liederen in Ouanary",
+          "lieu": "Nog te bepalen",
+          "description": "Een avond met traditionele verhalen en liederen, opgenomen voor de webradio."
+        },
+        "es": {
+          "titre": "Velada de cuentos y cantos en Ouanary",
+          "lieu": "Por precisar",
+          "description": "Una velada de cuentos y cantos tradicionales, grabada para la radio web."
+        }
+      }
+    }
+  ]
+}
